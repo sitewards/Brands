@@ -1,7 +1,6 @@
-<?xml version="1.0"?>
-<!--
+<?php
 /**
- * config.xml
+ * Sitewards_Discounts_Helper_Data
  *
  * @category    Sitewards
  * @contact     magento@sitewards.com
@@ -9,11 +8,5 @@
  * @licence     OSL-3.0
  * @package     Sitewards_Brands
  */
--->
-<config>
-	<modules>
-		<Siteward_Brands>
-			<version>0.0.1</version>
-		</Siteward_Brands>
-	</modules>
-</config>
+class Sitewards_Brands_Helper_Data extends Mage_Core_Helper_Abstract {
+}

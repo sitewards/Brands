@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * adminhtml.xml
+ *
+ * @category    Sitewards
+ * @contact     magento@sitewards.com
+ * @copyright   Copyright (c) 2013 Sitewards GmbH (http://www.sitewards.com/)
+ * @licence     OSL-3.0
+ * @package     Sitewards_Brands
+ */
+-->
+<config>
+	<menu>
+		<catalog>
+			<children>
+				<sitewards_brands translate="title" module="sitewards_brands">
+					<title>Manage Brands</title>
+					<action>sitewardsbrands/admin</action>
+					<sort_order>250</sort_order>
+				</sitewards_brands>
+			</children>
+		</catalog>
+	</menu>
+
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<catalog>
+						<children>
+							<sitewards_brands translate="title" module="sitewards_brands">
+								<title>Manage Brands</title>
+								<sort_order>250</sort_order>
+							</sitewards_brands>
+						</children>
+					</catalog>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>
