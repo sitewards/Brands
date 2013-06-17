@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * config.xml
+ *
+ * @category    Sitewards
+ * @contact     magento@sitewards.com
+ * @copyright   Copyright (c) 2013 Sitewards GmbH (http://www.sitewards.com/)
+ * @licence     OSL-3.0
+ * @package     Sitewards_Brands
+ */
+-->
+<config>
+	<modules>
+		<Siteward_Brands>
+			<version>0.0.1</version>
+		</Siteward_Brands>
+	</modules>
+</config>

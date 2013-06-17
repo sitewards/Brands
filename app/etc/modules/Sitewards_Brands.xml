@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Sitewards_Brands.xml
+ *  - Activate module,
+ *  - Specify code pool
+ *
+ * @category    Sitewards
+ * @contact     magento@sitewards.com
+ * @copyright   Copyright (c) 2013 Sitewards GmbH (http://www.sitewards.com/)
+ * @licence     OSL-3.0
+ * @package     Sitewards_Brands
+ */
+-->
+<config>
+	<modules>
+		<Sitewards_Brands>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends>
+				<Mage_Adminhtml />
+				<Mage_Catalog />
+			</depends>
+		</Sitewards_Brands>
+	</modules>
+</config>

@@ -1,0 +1,7 @@
+{
+    "name": "sitewards/brands",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "The sitewards brands module extends your webshop to include a brands home page",
+    "homepage": "http://www.sitewards.com"
+}
